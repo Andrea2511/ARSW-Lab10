@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "abfb2502-41a5-423a-b8b8-74bb7f2e29a1",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44551729",
+		"_collection_link": "https://andrea-8468636.postman.co/workspace/Andrea's-Workspace~7aa358e0-9795-4507-884d-7ea15f1586d5/collection/44551729-abfb2502-41a5-423a-b8b8-74bb7f2e29a1?action=share&source=collection_link&creator=44551729"
+	},
+	"item": [
+		{
+			"name": "https://functionprojectfibonacciarsw.azurewebsites.net/api/Fibonacci?Key\tValue\nContent-Type=\tapplication/json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nth\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://functionprojectfibonacciarsw.azurewebsites.net/api/Fibonacci?Key\tValue\nContent-Type=\tapplication/json",
+					"protocol": "https",
+					"host": [
+						"functionprojectfibonacciarsw",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Fibonacci"
+					],
+					"query": [
+						{
+							"key": "Key\tValue\nContent-Type",
+							"value": "\tapplication/json"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
